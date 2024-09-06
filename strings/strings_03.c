@@ -28,7 +28,7 @@ int LongestSubstringNonRepeating(char *str){
     int longest=0;
     
     for(int i=0;i<length;i++){
-        for(int j=i+1;j<length;j++){
+        for(int j=i;j<length;j++){
             if(containsUnique(str,i,j)==1){
                 int substrLength=j-i+1;
                 if(substrLength>longest){
