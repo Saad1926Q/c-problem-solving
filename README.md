@@ -37,6 +37,11 @@ This repository is aimed at reinforcing C programming knowledge through problem-
 - **Problem:** Given an unsorted array of integers, find the length of the longest consecutive sequence of numbers.
 - **Solution:** First, the array is sorted, and then the longest consecutive sequence is found by checking consecutive elements.
 
+
+### 9. Subarray sum equals to k. (`arrays_09.c`)
+- **Problem:** Given an unsorted array of integers, display the Subarrays with sum equals to k.
+- **Solution:** The code implements a brute-force approach to find and count all subarrays within a given integer array that sum to a specified target. It iterates through all possible subarrays, calculating their sums and displaying those that match the target.
+
 ---
 
 ## String Problems
