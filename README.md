@@ -28,6 +28,15 @@ This repository is aimed at reinforcing C programming knowledge through problem-
 - **Problem:** Given an array containing `n` distinct numbers taken from `0, 1, 2, ..., n`, find the missing number.
 - **Solution:** This solution checks for each number between `0` and `n` to determine the missing one by scanning the array.
 
+### 7. Find Duplicate Elements in an Array (`arrays_07.c`)
+- **Problem:** Given an array of integers, find all duplicate elements.
+- **Assumptions:** The array contains integers in the range [1, n], where n is the size of the array.
+- **Solution:** The solution tracks each element with a boolean visited array to ensure that duplicates are not printed more than once.
+
+### 8. Find Longest Consecutive Sequence (`arrays_08.c`)
+- **Problem:** Given an unsorted array of integers, find the length of the longest consecutive sequence of numbers.
+- **Solution:** First, the array is sorted, and then the longest consecutive sequence is found by checking consecutive elements.
+
 ---
 
 ## String Problems
