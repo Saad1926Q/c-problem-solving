@@ -67,6 +67,17 @@ This repository is aimed at reinforcing C programming knowledge through problem-
   - Track unique characters in the substring using a character frequency array.
   - Keep track of the longest valid substring during the iterations.
 
+### 4. Check if two strings are anagrams (`strings_04.c`)
+- **Problem:** Check if two strings are anagrams
+- **Approach:** 
+  - The code checks if two strings are anagrams by comparing the frequency of each character in both strings.
+  - It first verifies if the strings are of equal length, then counts and compares the occurrences of each character.
+
+### 5. Generate all possible substrings of a string (`strings_05.c`)
+- **Problem:** Generate all possible substrings of a string.
+- **Approach:** 
+  - The code generates and prints all possible substrings of the input string by using nested loops to iterate through all starting and ending indices, displaying each substring with the display function.
+
 ---
 
 ## Linked List Problems
