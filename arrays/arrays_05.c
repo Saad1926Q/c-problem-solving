@@ -30,11 +30,11 @@ int main(){
     //Shifting by 1 position to the left "k" times
     for(int j=0;j<k;j++){
         //Shifting by 1 position to the left
+        temp=arr[0];
         for(i=0;i<size-1;i++){
-            temp=arr[i];
             arr[i]=arr[i+1];
-            arr[i+1]=temp;
         }
+        arr[size-1]=temp;
     }
 
     
